@@ -12,9 +12,10 @@
 					?>
 						<article>
 
-							<?php
-							the_post_thumbnail();
-							?>
+						<?php 
+						the_post_thumbnail(null, ['class' => 'img-responsive responsive--full', 'title' => 'Feature image'] );
+						?>
+						
 
 							<h2 class="title">
 								<a href="<?php the_permalink(); ?>">
@@ -35,8 +36,13 @@
 									<?php the_category(', '); ?>
 								</li>
 							</ul>
-
 							<p><?php the_content(); ?></p>
+
+							
+<!-- <?php 
+$text_var_filtrerad = apply_filters('the_content', the_content());
+echo $text_var_filtrerad;
+?> -->
 
 						</article>
 					<?php } ?>

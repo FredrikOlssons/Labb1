@@ -64,6 +64,22 @@ include('enqueue.php');
         }
         add_filter('excerpt_length', 'my_excerpt_length');
 
+
     
+
+
+
+
+/* 
+        add_filter('the_content', 'byt_bokstav_funktion');
+
+function byt_bokstav_funktion( $content ){
+               $ny_text = str_replace('t', '5', $content);
+               return $ny_text;
+           }
+           ?> */
+
+
     ?>
     <?php get_template_part( $undersida4 ); ?>
+
