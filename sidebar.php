@@ -1,11 +1,9 @@
 <div class="footerWidget1">
-	<?php 
-	dynamic_sidebar('widget3');
-	?>
-</div>
-
-<aside id="secondary" class="col-xs-12 col-md-3">
-							<div id="sidebar">
+    </div>
+    
+    <aside id="secondary" class="col-xs-12 col-md-3">
+        <div id="sidebar">
+                                <?php dynamic_sidebar('widget3');?>
 								<ul>
 									<li>
 										<form id="searchform" class="searchform">

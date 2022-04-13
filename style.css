@@ -54,6 +54,14 @@ textarea {
 	min-width: 200px;
 }
 
+#searchbox {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+
+
 /* Header styles
 ------------------------------------------------------------------ */
 
@@ -168,6 +176,34 @@ textarea {
 				margin-bottom: 12px;
 				
 				}
+
+				#menu-item-96 {
+					display: flex;
+					flex-direction: row;
+					gap: 20px;			
+					font-size: 18px;		
+					}
+
+				#menu-item-97 {
+					display: flex;
+					flex-direction: row;
+					gap: 13px;		
+					font-size: 18px;			
+					}
+
+				#menu-item-98 {
+					display: flex;
+					flex-direction: row;
+					gap: 16px;		
+					font-size: 18px;			
+					}
+
+				#menu-item-99 {
+					display: flex;
+					flex-direction: row;
+					gap: 16px;		
+					font-size: 18px;			
+					}
 
 @media ( max-width: 768px ) {
 

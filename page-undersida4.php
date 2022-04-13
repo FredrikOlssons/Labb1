@@ -12,7 +12,7 @@
                             <p><?php the_content(); ?></p>
 						</div>
 						<div class="col-xs-12 col-sm-4 col-md-6">
-                            <img <?php the_post_thumbnail();?>/>
+                            <img <?php the_post_thumbnail();?>
 						</div>
 					</div>
 				</div>
